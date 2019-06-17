@@ -76,11 +76,11 @@ function logWhisper(string) {
 logWhisper("hello");
 
 funcion sayHiToGrandma(string) {
-if (hour < 18) {
-  greeting = "Good day";
-} else {
-  greeting = "Good evening";
-}
+if (string == "hello") {
+  return "I can't hear you!"
+} else if (string == "HELLO"){
+  return "YES INDEED!"
+} else 
 
 
 describe('sayHiToGrandma(string)', function() {
